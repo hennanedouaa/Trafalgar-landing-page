@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
+import About from './Components/About';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <div className="flex-grow">
         {/* Main content goes here */}
+        <About/>
       </div>
       <Footer />
     </div>

@@ -18,3 +18,7 @@ li a:hover{
     @apply text-left text-white font-Muli text-[24px] md:text-[26px] font-bold;
 
 }
+
+h1{
+    @apply text-gray-950;
+}
