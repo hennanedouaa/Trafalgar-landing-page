@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 li a{
-    @apply  text-gray-500 font-Muli text-xl;
+    @apply  text-gray-400 font-Muli text-xl;
 }
 
 li a:hover{
@@ -11,10 +11,10 @@ li a:hover{
 }
 
 .foot{
-    @apply text-left text-white font-normal text-xl ;
+    @apply text-left text-white font-normal text-base md:text-xl ;
 }
 
 .Tfoot{
-    @apply text-left text-white font-Muli text-[24px] font-bold;
+    @apply text-left text-white font-Muli text-[24px] md:text-[26px] font-bold;
 
 }

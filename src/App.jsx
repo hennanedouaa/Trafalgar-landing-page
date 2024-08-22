@@ -5,13 +5,14 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className='bg-white h-screen w-screen pl-20 pr-20'>
-      <div className='w-full bg-green-600'>hahah</div>
-     <NavBar/>
-     <Footer/>
+    <div className="flex flex-col overflow-y-auto min-h-screen bg-white">
+      <NavBar />
+      <div className="flex-grow">
+        {/* Main content goes here */}
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;
