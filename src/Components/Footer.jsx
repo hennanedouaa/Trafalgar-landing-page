@@ -5,14 +5,14 @@ export default function Footer(){
 
     return (
   <div className="bg-gradient-to-t from-dblue to-bblue fixed bottom-0 left-0 w-full h-auto  ">
-<div className="md:flex-row gap-[4em] justify-end mr-[7em]">
+<div className="flex gap-[5em] pl-[2em] justify-center pr-[5em] pt-[2em] pb-[2em]">
 
 
 <div className="flex-col space-y-[1em]" >
-<div className="bg-white rounded-full p-4 w-13 h-13 items-center justify-center">
-    <p className="text-bblue text-xl font-extrabold">T</p>
-</div>
-    </div>
+<img className ="w-32 md:w-48 lg:w-64 xl:w-80" src={logo}></img>
+<p className="text-white font-normal  text-xl">Trafalgar provides progressive, and affordable healthcare,accessible online</p>
+<p className="text-white font-normal text-xl text-left">©Trafalgar PTY LTD 2020. All rights reserved </p>
+ </div>
 
 
 <div className="flex-col space-y-[0.9em]">
