@@ -9,11 +9,14 @@ export default {
       fontFamily: {
         Muli: "Muli",
       },
+      colors: {
+        bblue : "#67C3F3",
+        dblue : "#5A98F2",
+      }
     },
   },
   plugins: [
     require('tailwindcss-aspect-ratio'),
-
   ],
 }
 

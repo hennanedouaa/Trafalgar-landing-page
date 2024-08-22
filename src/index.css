@@ -3,9 +3,18 @@
 @tailwind utilities;
 
 li a{
-    @apply text-xl text-gray-500 font-Muli font-semibold;
+    @apply  text-gray-500 font-Muli text-xl;
 }
 
 li a:hover{
     @apply text-gray-900;
+}
+
+.foot{
+    @apply text-left text-white font-normal text-xl ;
+}
+
+.Tfoot{
+    @apply text-left text-white font-Muli text-[24px] font-bold;
+
 }
