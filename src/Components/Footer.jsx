@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/images/logo-white.svg";
 
 export default function Footer(){
 
@@ -37,7 +37,7 @@ export default function Footer(){
 <div className="flex-col space-y-[0.9em]">
 <p className=" Tfoot"><a href="">Help</a></p>
 <p className="foot"><a href="">Help center</a></p>
-<p className="foot"><a href="">Contact support</a></p>
+<p className="foot"><a href="">Support</a></p>
 <p className="foot"><a href="">Instructions</a></p>
 <p className="foot"><a href="">How it works</a></p>
 </div>

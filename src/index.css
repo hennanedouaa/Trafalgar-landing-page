@@ -11,7 +11,7 @@ li a:hover{
 }
 
 .foot{
-    @apply text-left text-white font-normal text-base md:text-xl ;
+    @apply text-left text-white font-normal text-base md:text-xl  ;
 }
 
 .Tfoot{
