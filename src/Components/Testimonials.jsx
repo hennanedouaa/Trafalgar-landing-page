@@ -5,8 +5,9 @@ import pfp3 from "../assets/images/pfp3.jpg";
 import pfp4 from "../assets/images/pfp4.jpg";
 import pfp5 from "../assets/images/pfp5.jpg";
 import Ttext from "./Ttext";
-
-
+import image from "../assets/images/dots.svg"
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import './Testimonials.css';
 export default function Testimonials(){
     const elements = [
         { image: pfp3, name: 'Anatole Faure', loc: 'Paris, France', testm: '“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”' },
@@ -31,13 +32,16 @@ const changer=(num)=>{
 };
 
     return(
-        <div className="w-full h-auto " >
+        <div className="w-full mt-56 mb-56 h-auto " >
+        <div className=" w-full h-32 bg-left m-0 bg-no-repeat  bg-contain mb-14 " style={{backgroundImage:`url(${image})`}} ></div>
 
-        <div className="h-auto  flex flex-col justify-center w-full px-10 md:px-16">
+        <div className="h-auto   flex flex-col justify-center w-full px-10 md:px-16">
             <div className="  flex justify-center items-center self-center mb-8 md:w-4/5 px-20 py-5  flex-col bg-gradient-to-t rounded-lg from-dblue to-bblue">
                 <p className="text-white text-[38px] font-Muli mt-6 font-bold md:mt-7 lg:text-[46px]">What our customer are saying</p>
                 <hr className="border-b-[1px] border-white  shadow-inner  w-16 self-center mt-6 mb-6"/>
-                <Ttext className="self-center" {...elements[currentIndex]}  />
+
+                            <Ttext {...elements[currentIndex]} />
+
             </div>
         <div className="flex flex-row gap-4 justify-center  md:gap-4 items-center mt-8">
             <button onClick={previous}>

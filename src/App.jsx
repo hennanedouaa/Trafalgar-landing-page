@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="flex flex-col overflow-y-auto min-h-screen bg-white">
       <NavBar />
-      <div className="flex-grow">
+      <div className="flex-grow gap-16">
         {/* Main content goes here */}
         <About/>
         <Services/>

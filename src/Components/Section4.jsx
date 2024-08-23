@@ -6,8 +6,8 @@ import image from "../assets/images/dots.svg"
 
 export default function Section3(){
     return (
-        <div className="w-full h-auto" >
-        <div className=" w-full h-32 bg-left m-0 bg-no-repeat  bg-contain " style={{backgroundImage:`url(${image})`}} ></div>
+        <div className="w-full h-auto " >
+        <div className=" w-full h-32 bg-left m-0 bg-no-repeat  bg-contain mb-14 " style={{backgroundImage:`url(${image})`}} ></div>
         <div className="flex flex-col lg:flex-row-reverse mt-20 justify-between items-center mb-11 px-20 lg:gap-20 lg:px-40">
          <img className="w-full max-w-lg mb-8 lg:max-w-xl xl:max-w-xl h-auto object-cover " src={ill4}></img>
          <div className="flex flex-col gap-4">
