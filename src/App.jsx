@@ -4,6 +4,8 @@ import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Services from './Components/Services';
+import Section3  from './Components/Section3';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         {/* Main content goes here */}
         <About/>
         <Services/>
+        <Section3/>
       </div>
       <Footer />
     </div>

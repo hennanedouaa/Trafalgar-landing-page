@@ -12,13 +12,13 @@ import bgImage from '../assets/images/bg.svg';
 export default function Services(){
     return(
         <div className="relative w-full h-auto bg-left  bg-cover  lg:bg-contain bg-no-repeat " style={{ backgroundImage: `url(${bgImage})` }}>
-            <div className="mx-44 mb-12  "  >
+            <div className="lg:mx-44 lg:mb-12  mx-20 mb-10 "  >
                 <div className="flex flex-col justify-center pb-7">
                     <p className="text-gray-800 text-[38px] font-Muli font-bold lg:text-[52px]">Our services</p>
                     <hr className="border-b-[1px] border-black w-16 self-center mt-6"/>
-                    <p className="text-gray-400 lg:mt-4 lg:text-xl mx-8 my-6">We provide to you the best choices for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors. You can consult with us to find the most suitable service for your health.</p>
+                    <p className="text-gray-400 lg:mt-4 text-xl lg:text-2xl lg:mb-10 my-6">We provide to you the best choices for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors. You can consult with us to find the most suitable service for your health.</p>
                 </div>
-                <div className="grid bg-transparent gap-x-14 gap-y-10  grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 lg:mb-4">
+                <div className="grid bg-transparent gap-x-14 gap-y-10  grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 lg:mb-4  mb-14">
                     <Card image={search} titre="Search doctor" textee="Choose your doctor from thousands of specialist, general, and trusted hospitals" />
                     <Card image={pills} titre="Online pharmacy" textee="Buy your medicines with our mobile application with a simple delivery system" />
                     <Card image={consultasion} titre="Consultation" textee="Free consultation with our trusted doctors and get the best recomendations" />
