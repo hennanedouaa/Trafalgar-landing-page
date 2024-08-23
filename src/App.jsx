@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import About from './Components/About';
+import Services from './Components/Services';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="flex-grow">
         {/* Main content goes here */}
         <About/>
+        <Services/>
       </div>
       <Footer />
     </div>
