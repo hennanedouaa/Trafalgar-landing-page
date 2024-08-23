@@ -11,7 +11,7 @@ export default function Services(){
     return(
         <div className="mx-12">
  <div className="flex flex-col justify-center">
-<p className="text-gray-800 text-[36px]  font-Muli font-bold lg:text-[52px]">Our services</p>
+<p className="text-gray-800 text-[38px]  font-Muli font-bold lg:text-[52px]">Our services</p>
 <hr className="border-b-[1px] border-black w-16 self-center mt-6"/>
 <p className="text-gray-400 lg:mt-4 lg:text-xl mx-8 my-6">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
 </div>

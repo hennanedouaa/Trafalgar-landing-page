@@ -3,7 +3,7 @@ import ill from "../assets/images/about.svg";
 
 export default function About() {
     return (
-        <div className="flex flex-col-reverse  lg:flex-row  items-center pb-5 ">
+        <div className="flex flex-col-reverse h-auto  mb-16 lg:flex-row  items-center pb-5 ">
 <div className="flex flex-col gap-4  mt-4 justify-center items-center lg:items-start lg:ml-32 mb-8 sm:mb-0 text-center lg:text-left">
     <p className="text-gray-800 text-[36px]  font-Muli font-bold lg:text-[52px]">
         Virtual healthcare for you
