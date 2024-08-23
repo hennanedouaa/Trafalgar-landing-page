@@ -9,7 +9,7 @@ import tracking from "../assets/images/tracking.svg";
 
 export default function Services(){
     return(
-        <div className="mx-12">
+        <div className="mx-20">
  <div className="flex flex-col justify-center">
 <p className="text-gray-800 text-[38px]  font-Muli font-bold lg:text-[52px]">Our services</p>
 <hr className="border-b-[1px] border-black w-16 self-center mt-6"/>
