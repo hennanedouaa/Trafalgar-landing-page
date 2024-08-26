@@ -40,7 +40,7 @@ const changer=(num)=>{
                 <p className="text-white text-[38px] font-Muli mt-6 font-bold md:mt-7 lg:text-[46px]">What our customer are saying</p>
                 <hr className="border-b-[1px] border-white  shadow-inner  w-16 self-center mt-6 mb-6"/>
 
-                            <Ttext {...elements[currentIndex]} />
+                            <Ttext className="fade-in" {...elements[currentIndex]} />
 
             </div>
         <div className="flex flex-row gap-4 justify-center  md:gap-4 items-center mt-8">

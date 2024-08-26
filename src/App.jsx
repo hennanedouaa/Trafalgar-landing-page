@@ -8,7 +8,7 @@ import Section3  from './Components/Section3';
 import Section4  from './Components/Section4';
 import Testimonials from "./Components/Testimonials";
 import Testm from "./Components/Testm";
-
+import Timer from "./Components/Timer";
 function App() {
   return (
     <div className="flex flex-col overflow-y-auto min-h-screen bg-white">
@@ -19,7 +19,8 @@ function App() {
         <Services/>
         <Section3/>
         <Section4/>
-        <Testimonials/>
+        <Testimonials/> 
+
       </div>
       <Footer />
     </div>

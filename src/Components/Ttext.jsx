@@ -1,9 +1,17 @@
-import React from "react";
+import React ,{useEffect ,useState} from "react";
 
 export default function Ttext(props) {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect (()=>{
+    setIsVisible(true);
+
+  },
+
+  [])
   return (
-    <div className="bg-transparent p-6">
-      <div className="flex flex-col md:flex-row items-center justify-between">
+    <div className="bg-transparent p-6 {isVisible ? 'fade-in' : ''}">
+      <div className="flex flex-col md:flex-row items-center justify-between ">
         <img
           src={props.image}
           className="rounded-full border-[6px] border-white h-[160px] w-[160px] object-cover"
